@@ -115,7 +115,7 @@ public class ThreadSendMail implements Runnable
 	{
 		sendMail.setSubject(subject);
 		sendMail.setText(sentMessage);
-		sendMail.setFrom("mthTest180801@gmail.com", "모두의 떨이");
+		sendMail.setFrom("표시할 이메일 주소:test@gmail.com", "보내는 사람 명:test");
 		sendMail.setTo(toEmail);
 		sendMail.send();
 	}
